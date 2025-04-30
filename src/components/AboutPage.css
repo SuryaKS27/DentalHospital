@@ -1,0 +1,137 @@
+.about-page {
+  padding: 120px 0 60px;
+  background-color: #111;
+  color: white;
+}
+
+.about-story {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-story h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.story-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.story-image {
+  flex: 1;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.story-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.story-text {
+  flex: 1;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.story-text p {
+  margin-bottom: 20px;
+}
+
+.core-values {
+  margin-top: 80px;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.core-values h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.values-subtitle {
+  color: #888;
+  margin-bottom: 40px;
+}
+
+.values-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.value-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-icon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.value-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.value-card p {
+  color: #888;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .story-content {
+    flex-direction: column;
+  }
+  
+  .about-story h1 {
+    font-size: 2rem;
+  }
+  
+  .core-values h2 {
+    font-size: 1.8rem;
+  }
+}
+
+.appointment-section {
+  background-color: #222;
+  padding: 40px 0;
+  margin-top: 60px;
+}
+
+.appointment-section h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.appointment-section .btn {
+  padding: 12px 30px;
+  font-size: 0.9rem;
+}
+
+.appointment-section .btn-primary {
+  background-color: #0066FF;
+  border: none;
+}
+
+.appointment-section .btn-dark {
+  background-color: #333;
+  border: none;
+}

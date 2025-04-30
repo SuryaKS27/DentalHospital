@@ -1,0 +1,109 @@
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 0.8rem !important;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.navbar-brand span {
+  font-size: 0.8rem !important;
+  animation: slideIn 0.8s ease-out;
+}
+
+.navbar-brand img {
+  height: 40px;
+  animation: scaleIn 0.7s ease-out;
+}
+
+.navbar .nav-link {
+  font-size: 0.7rem !important;
+  color: #333 !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  animation: fadeIn 0.8s ease-out;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navbar .nav-link:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #0066FF;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #0066FF !important;
+  transform: translateY(-2px);
+}
+
+.navbar .nav-link:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.navbar .btn {
+  font-size: 0.65rem;
+  padding: 0.4rem 1rem;
+  animation: scaleIn 1s ease-out;
+  transition: all 0.3s ease;
+}
+
+.navbar .btn-primary {
+  background-color: #0066FF;
+  border: 2px solid #0066FF;
+}
+
+.navbar .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 102, 255, 0.2);
+  background-color: #0052cc;
+  border-color: #0052cc;
+}
+
+.navbar .btn-outline-primary {
+  border: 2px solid #0066FF;
+  color: #0066FF;
+  background-color: transparent;
+}
+
+.navbar .btn-outline-primary:hover {
+  background-color: #0066FF;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 102, 255, 0.2);
+}
+
+.nav-link {
+  margin: 0 15px;
+}
+
+/* Stagger animation for nav links */
+.navbar .nav-link:nth-child(1) { animation-delay: 0.1s; }
+.navbar .nav-link:nth-child(2) { animation-delay: 0.2s; }
+.navbar .nav-link:nth-child(3) { animation-delay: 0.3s; }
+.navbar .nav-link:nth-child(4) { animation-delay: 0.4s; }
+.navbar .nav-link:nth-child(5) { animation-delay: 0.5s; }
+.navbar .nav-link:nth-child(6) { animation-delay: 0.6s; }

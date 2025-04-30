@@ -1,0 +1,42 @@
+.dentist-carousel {
+  padding: 20px 0;
+}
+
+.dentist-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.dentist-card {
+  padding: 20px;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.section-title {
+  margin-bottom: 50px;
+}
+
+.dentists-section h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.blue-underline {
+  width: 100px;
+  height: 4px;
+  background-color: #0066FF;
+  margin: 0 auto;
+}

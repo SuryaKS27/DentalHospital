@@ -1,0 +1,87 @@
+.hero-section {
+  padding: 20px 0 100px;  /* Reduced from 160px to 120px */
+  background: linear-gradient(to bottom right, #f8f9ff, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.hero-taglines h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.text-primary {
+  color: #0066FF !important;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 2rem 0;
+  color: #666;
+  max-width: 90%;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+}
+
+.hero-buttons .btn {
+  padding: 12px 30px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.tooth-image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooth-image {
+  width: 100%;
+  max-width: 600px;
+  height: 800px;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-section {
+    padding: 120px 0 60px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-taglines h2 {
+    font-size: 2.5rem;
+  }
+  
+  .tooth-image-container {
+    margin-top: 3rem;
+  }
+}

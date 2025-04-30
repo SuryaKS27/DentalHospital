@@ -1,0 +1,76 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Krona One', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #1976d2 !important;
+}
+
+/* Navbar Styles */
+.nav-link {
+  font-size: 0.65rem;  /* Changed from 0.1rem to a more visible size */
+  color: #333 !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 0.5rem 1rem;  /* Added padding for better spacing */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #1976d2 !important;
+  font-size: 0.8rem;  /* Adjusted brand size for proportion */
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.4rem !important;  /* Reduced from 1.8rem */
+  }
+  h2 {
+    font-size: 1.2rem !important;  /* Reduced from 1.6rem */
+  }
+  h3 {
+    font-size: 1rem !important;    /* Reduced from 1.3rem */
+  }
+}
+
+/* Button text */
+.btn {
+  font-size: 0.9rem;  /* Added smaller font size */
+}
+
+.appointment-section h2 {
+  font-size: 1.8rem;  /* Reduced from 2.2rem */
+  font-weight: 600;
+}
+
+.appointment-section .btn {
+  padding: 10px 25px;  /* Slightly reduced padding */
+  font-size: 0.9rem;  /* Reduced from 1rem */
+}
+
+.appointment-section .btn-primary {
+  background-color: #0066FF;
+  border: none;
+}
+
+.appointment-section .btn-dark {
+  background-color: #000;
+  border: none;
+}

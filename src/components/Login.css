@@ -1,0 +1,119 @@
+.login-page {
+  min-height: 100vh;
+  background-image: url('../../public/Login (1).png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin-right: 30px;
+}
+
+.login-form-section {
+  background-color: #0066FF;
+  padding: 40px;
+  border-radius: 20px;
+  color: white;
+  width: 100%;
+  max-width: 450px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.login-input {
+  background: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.login-input:focus {
+  box-shadow: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.login-btn {
+  width: 150px;
+  padding: 12px 0;
+  background: white;
+  color: #0066FF;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  margin: 20px auto;
+  display: block;
+}
+
+.login-btn:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: #0066FF;
+}
+
+.login-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.forgot-link, .signup-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.forgot-link:hover, .signup-text a:hover {
+  text-decoration: underline;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+/* Remove these sections */
+.login-image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.floating-tooth {
+  max-width: 300px;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Update this media query to remove image-related styles */
+@media (max-width: 992px) {
+  .login-container {
+    flex-direction: column;
+  }
+  
+  .login-form-section {
+    margin-bottom: 40px;
+  }
+}

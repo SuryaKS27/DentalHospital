@@ -1,0 +1,30 @@
+.booking-container {
+  padding: 120px 0 60px;
+  max-width: 600px;
+}
+
+.booking-container form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.booking-container h2 {
+  color: #0066FF;
+  margin-bottom: 30px;
+}
+
+.form-control, .form-select {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #0066FF;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+}

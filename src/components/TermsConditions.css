@@ -1,0 +1,13 @@
+.terms-container {
+  padding: 100px 0 50px;
+  min-height: 100vh;
+}
+
+.terms-section {
+  margin-bottom: 40px;
+}
+
+.terms-section h2 {
+  color: #0066FF;
+  margin-bottom: 20px;
+}

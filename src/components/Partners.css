@@ -1,0 +1,90 @@
+.partners-section {
+  background-color: #0066FF;
+  padding: 80px 0;
+  color: white;
+  border-radius: 25px;
+  margin: 40px 20px;
+}
+
+.partners-section h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.blue-underline {
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  margin: 0 auto 50px;
+}
+
+.partner-row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 15px;
+}
+
+.partner-card {
+  flex: 1;
+  background-color: #0052CC;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .partner-row {
+    flex-wrap: wrap;
+  }
+  
+  .partner-card {
+    flex: 0 0 calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+
+.tooth-bg {
+  position: absolute;
+  height: 120%;
+  opacity: 0.1;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.partner-content h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .partners-section {
+    margin: 20px 10px;
+    padding: 40px 0;
+  }
+
+  .partner-card {
+    margin-bottom: 20px;
+  }
+}
+
+.partner-logo {
+  max-width: 120px;
+  height: auto;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.partner-logo:hover {
+  opacity: 1;
+}
