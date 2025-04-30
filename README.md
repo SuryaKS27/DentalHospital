@@ -29,7 +29,7 @@ To get the project up and running locally, follow these steps:
    git clone https://github.com/SuryaKS27/DentalHospital.git
 2. **Navigate to the project directory**:
    ```bash
-   cd smyl-dental-hospital
+   cd DentalHospital
 3. **Install the necessary dependencies**:
    ```bash
    npm install
