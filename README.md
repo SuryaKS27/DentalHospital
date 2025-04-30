@@ -2,10 +2,6 @@
 
 This is the frontend of **SMYL Dental Hospital**, built using **React.js**, **Bootstrap**, and **custom CSS**. It features a clean, responsive UI for patients to explore services, book appointments, and connect with dental professionals.
 
-## 📸 Preview
-
-![Navbar Preview](./path-to-your-navbar-screenshot.png)
-
 ## 🧰 Tech Stack
 
 - ⚛️ **React.js** – Component-based architecture
@@ -30,4 +26,17 @@ To get the project up and running locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/SuryaKS27/DentalHospital.git
+2. **Navigate to the project directory**:
+   ```bash
+   cd smyl-dental-hospital
+3. **Install the necessary dependencies**:
+   ```bash
+   npm install
+4. **Install react-router-dom for routing**:
+   ```bash
+   npm install react-router-dom
+5. **Start the development server**:
+   ```bash
+   npm start
+This will open the website on your local machine, typically accessible at http://localhost:3000.
